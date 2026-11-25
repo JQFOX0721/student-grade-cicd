@@ -1,6 +1,6 @@
-#include &lt;gtest/gtest.h&gt;
-#include &quot;GradeCalculator.h&quot;
+#include <gtest/gtest.h>
+#include "GradeCalculator.h"
 
 TEST(GradeCalculatorTest, HighScoreReturnsA) {
-EXPECT_EQ(calculateLetterGrade(90), &#39;A&#39;);
+    EXPECT_EQ(calculateLetterGrade(90), 'A');
 }
