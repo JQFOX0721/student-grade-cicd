@@ -3,7 +3,6 @@
 #include "GradeCalculator.h"
 
 int main(int argc, char* argv[]) {
-    // Post-deployment smoke/health check mode
     if (argc > 1 && std::string(argv[1]) == "--health-check") {
         if (calculateLetterGrade(85) == 'A' && isPassing(50)) {
             std::cout << "HEALTH CHECK OK" << std::endl;
