@@ -1,12 +1,12 @@
-#include &quot;GradeCalculator.h&quot;
+#include "GradeCalculator.h"
 
 char calculateLetterGrade(int score) {
-if (score &gt;= 80) return &#39;A&#39;;
-if (score &gt;= 65) return &#39;B&#39;;
-if (score &gt;= 50) return &#39;C&#39;;
-return &#39;F&#39;;
+    if (score >= 80) return 'A';
+    if (score >= 65) return 'B';
+    if (score >= 50) return 'C';
+    return 'F';
 }
 
 bool isPassing(int score) {
-return score &gt;= 50;
+    return score >= 50;
 }
